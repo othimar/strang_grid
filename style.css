@@ -1,0 +1,59 @@
+.my-grid{
+    height: 300px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.grid-item{
+    background-color: rgb(197, 197, 197);
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+#one{
+    grid-row: 1/14;
+}
+
+#two{
+    grid-row:14/28;
+    grid-column: 1;
+}
+
+#three{
+    grid-row:1/8;
+    grid-column: 2;
+}
+
+#four{
+    grid-row:8/18;
+    grid-column: 2;
+}
+
+#five{
+    grid-row:18/28;
+    grid-column: 2;
+}
+
+#six{
+    grid-row:1/14;
+    grid-column: 3;
+}
+
+#seven{
+    grid-row:14/16;
+    grid-column: 3;
+}
+
+#eight{
+    grid-row:16/20;
+    grid-column: 3;
+}
+
+#nine{
+    grid-row:20/28;
+    grid-column: 3;
+}
